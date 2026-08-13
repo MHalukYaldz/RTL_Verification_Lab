@@ -2,11 +2,13 @@
 
 A collection of SystemVerilog verification exercises and projects covering language features, class-based testbench development, constrained-random stimulus, self-checking environments, and digital communication interfaces.
 
-## 🚧 Repository Status — Active Development
+## 🚧 Active Development
 
-**More verification exercises and projects are in progress.**
+**Repository Progress**
 
-`████████████████░░░░░░░░` **LOADING...**
+`■■■■■■■■■■■■□□□□□□□□`
+
+More verification exercises and projects are being added.
 
 **Next:** I2C Verification
 
@@ -17,8 +19,8 @@ A collection of SystemVerilog verification exercises and projects covering langu
 | Section                              | Content                                                                                                         |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | **Part1 – SystemVerilog Essentials** | SystemVerilog exercises focused on language features used in verification and class-based testbench development |
-| **Part2 – SystemVerilog Projects**   | Class-based verification projects for DFF, FIFO, SPI, UART, I2C, and other digital interfaces                   |
-| **Part3 – UVM**                      | UVM exercises and verification projects                                                                         |
+| **Part2 – SystemVerilog Projects**   | Class-based verification projects for DFF, FIFO, SPI, UART, and other digital interfaces, with I2C next         |
+| **Part3 – UVM**                      | UVM exercises and verification projects in progress                                                             |
 
 ## Topics Practiced
 
