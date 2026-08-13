@@ -6,7 +6,7 @@ A collection of SystemVerilog verification exercises and projects covering langu
 
 **Repository Progress**
 
-`■■■■■■■■■■■■□□□□□□□□`
+`■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□`
 
 More verification exercises and projects are being added.
 
