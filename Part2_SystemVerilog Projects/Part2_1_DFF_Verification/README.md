@@ -2,20 +2,20 @@
 
 ## Verification Scope
 
-- Input stimulus generation
-- Reset verification
-- Output monitoring
-- Expected vs actual comparison
+- Data input/output behavior
+- Reset operation
+- Random stimulus
+- Expected vs. actual output comparison
 - Unknown (`X`) input behavior
 
-## Testbench Components
+## Components
 
-`Generator → Driver → DUT → Monitor → Scoreboard`
+`Generator → Driver → DFF → Monitor → Scoreboard`
 
-## Concepts Used
+## SystemVerilog Features
 
 - Transaction class
-- Mailbox
+- Mailboxes
 - Events
 - Virtual interface
 - Self-checking scoreboard
