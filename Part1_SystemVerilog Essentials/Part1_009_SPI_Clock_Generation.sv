@@ -22,16 +22,8 @@ module Part1_9;
       #55.555;
       sclk = 1'b0;
     end
-  
-  
-  /////// User code ends here
- 
-  
-  
-  
- 
-  /////Do not change any code after this ->
-  
+  //////////////////////////
+  //////////////////////////
   sub_tb s (sclk);
   
  initial 
