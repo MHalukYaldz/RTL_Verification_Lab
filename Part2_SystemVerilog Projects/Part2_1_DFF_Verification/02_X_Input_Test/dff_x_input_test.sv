@@ -152,7 +152,7 @@ class scoreboard;
       mbxref.get(trref); // Get a reference transaction from the generator
       tr.display("SCO"); // Display the driver's transaction information
       trref.display("REF"); // Display the reference transaction information
-      if (tr.dout == trref.din)
+      if (tr.dout === trref.din)
         $display("[SCO] : DATA MATCHED"); // Compare data and display the result
       else
         $display("[SCO] : DATA MISMATCHED");
