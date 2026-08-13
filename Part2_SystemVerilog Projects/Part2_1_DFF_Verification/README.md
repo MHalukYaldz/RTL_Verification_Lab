@@ -25,4 +25,5 @@
 
 The waveform below shows the DFF response during randomized input stimulus and reset operation.
 
-<img width="1840" height="101" alt="Waveform" src="https://github.com/user-attachments/assets/7c4e3aa9-67f5-4678-8b6b-bcaacdb9fa46" />
+
+<img width="1835" height="100" alt="Waveform" src="https://github.com/user-attachments/assets/f78a1853-efff-4f6f-9303-de760c0f278e" />
