@@ -19,7 +19,7 @@ The UART frame format used in this design is:
 
 ```text
 Idle | Start | D0 | D1 | D2 | D3 | D4 | D5 | D6 | D7 | Odd Parity | Stop
-  1  |   0   |                8-bit Data                |     P      |  1
+  1  |   0   |                8-bit Data             |     P      |  1
 ```
 
 Data bits are transmitted **LSB first**.
