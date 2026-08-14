@@ -220,7 +220,7 @@ class first;
 
     constraint data {
                     var1 dist {0 := 30 , [1:3] := 90};  // 0=30/300 , 1,2,3=90/300 
-                    var2 dist {0 :/ 30 , [1:3] :/ 90};  // 0,1,2,3=0.25
+					var2 dist {0 :/ 30 , [1:3] :/ 90};  // 0,1,2,3 = 30/120 = 0.25
                 };
 
     constraint cntrl {
