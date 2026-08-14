@@ -172,8 +172,6 @@ class driver;
   transaction tr;
   mailbox #(transaction) mbx;
   mailbox #(bit [11:0]) mbxds;
-  
-  bit [11:0] din;
  
   // Constructor
   function new(mailbox #(bit [11:0]) mbxds, mailbox #(transaction) mbx);
