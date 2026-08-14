@@ -13,7 +13,7 @@ The RTL contains separate UART transmitter (`uarttx`) and receiver (`uartrx`) mo
 * TX and RX are tested independently in this verification environment.
 * No TX-to-RX loopback connection is used.
 
-<img width="811" height="221" alt="UART_RTL_Block_Diagram_drawio" src="https://github.com/user-attachments/assets/b418f13b-db51-4942-a4d3-a5f3cc48b37b" />
+<img width="811" height="221" alt="UART_RTL_Block_Diagram_drawio" src="https://github.com/user-attachments/assets/1ef91c5b-49e9-482b-a905-103b48805f3d" />
 
 
 ## Verification Architecture
