@@ -53,21 +53,29 @@ UART transmitter verification including complete frame-level checks.
 * Stop bit verification
 * Transmission completion check
 
-### Class-Based Verification – In Progress
+### Class-Based Verification
 
-The parity and stop-bit verification is currently being extended into a class-based verification environment using:
+The parity and stop-bit verification was also implemented using a class-based SystemVerilog verification environment with:
 
-* Transaction
-* Generator
-* Driver
-* Monitor
-* Scoreboard
-* Environment
-* Mailbox communication
-* Event synchronization
-* Virtual interface
+- Transaction
+- Generator
+- Driver
+- Monitor
+- Scoreboard
+- Environment
+- Mailbox communication
+- Event synchronization
+- Virtual interface
 
-The goal is to verify the UART TX frame using reusable verification components and self-checking comparisons.
+The driver provides the transmitted data as reference data, while the monitor reconstructs the serial UART output and captures the parity and stop bits.
+
+The scoreboard performs self-checking verification of:
+
+- Transmitted vs. monitored data
+- Expected vs. received odd parity
+- Stop bit value
+
+The class-based simulation was successfully completed using randomized UART TX transactions.
 
 ## Configuration
 
